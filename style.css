@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700&display=swap");
+
+html {
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #000000;
+  background-image: url("https://ken123777.github.io/images/background.jpeg");
+  background-size: 100% 100%;
+  position: relative;
+  font-family: "Fira Code", monospace;
+  letter-spacing: -0.7px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-weight: 100;
+  margin-bottom: 5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+img {
+  width: 2.5rem;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.my-name {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+  position: absolute;
+}
+
+.content {
+  text-align: center;
+  color: white;
+}
+
+.profile-image {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 2rem;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2%;
+}
